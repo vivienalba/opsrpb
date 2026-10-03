@@ -1,0 +1,366 @@
+Activity,Activity date,Status,Owner,Due date,Completed date,Category,Value
+Review client records,2025-01-01,Completed,Alex,2025-01-04,2025-01-03,Client support,100
+Prepare quotation,2025-01-03,Completed,Sam,2025-01-06,2025-01-05,Sales,225
+Confirm booking,2025-01-05,In progress,Jamie,2025-01-08,,Bookings,350
+Update inventory,2025-01-07,Pending,Morgan,2025-01-10,,Client support,475
+Prepare weekly report,2025-01-09,Cancelled,Alex,2025-01-12,,Sales,600
+Follow up inquiry,2025-01-11,Completed,Sam,2025-01-14,2025-01-13,Bookings,725
+Review client records,2025-01-13,Completed,Jamie,2025-01-16,2025-01-15,Client support,850
+Prepare quotation,2025-01-15,In progress,Morgan,2025-01-18,,Sales,975
+Confirm booking,2025-01-17,Pending,Alex,2025-01-20,,Bookings,100
+Update inventory,2025-01-19,Cancelled,Sam,2025-01-22,,Client support,225
+Prepare weekly report,2025-01-21,Completed,Jamie,2025-01-24,2025-01-23,Sales,350
+Follow up inquiry,2025-01-23,Completed,Morgan,2025-01-26,2025-01-25,Bookings,475
+Review client records,2025-01-25,In progress,Alex,2025-01-28,,Client support,600
+Prepare quotation,2025-01-27,Pending,Sam,2025-01-30,,Sales,725
+Confirm booking,2025-01-29,Cancelled,Jamie,2025-02-01,,Bookings,850
+Update inventory,2025-01-31,Completed,Morgan,2025-02-03,2025-02-02,Client support,975
+Prepare weekly report,2025-02-02,Completed,Alex,2025-02-05,2025-02-04,Sales,100
+Follow up inquiry,2025-02-04,In progress,Sam,2025-02-07,,Bookings,225
+Review client records,2025-02-06,Pending,Jamie,2025-02-09,,Client support,350
+Prepare quotation,2025-02-08,Cancelled,Morgan,2025-02-11,,Sales,475
+Confirm booking,2025-02-10,Completed,Alex,2025-02-13,2025-02-12,Bookings,600
+Update inventory,2025-02-12,Completed,Sam,2025-02-15,2025-02-14,Client support,725
+Prepare weekly report,2025-02-14,In progress,Jamie,2025-02-17,,Sales,850
+Follow up inquiry,2025-02-16,Pending,Morgan,2025-02-19,,Bookings,975
+Review client records,2025-02-18,Cancelled,Alex,2025-02-21,,Client support,100
+Prepare quotation,2025-02-20,Completed,Sam,2025-02-23,2025-02-22,Sales,225
+Confirm booking,2025-02-22,Completed,Jamie,2025-02-25,2025-02-24,Bookings,350
+Update inventory,2025-02-24,In progress,Morgan,2025-02-27,,Client support,475
+Prepare weekly report,2025-02-26,Pending,Alex,2025-03-01,,Sales,600
+Follow up inquiry,2025-02-28,Cancelled,Sam,2025-03-03,,Bookings,725
+Review client records,2025-03-02,Completed,Jamie,2025-03-05,2025-03-04,Client support,850
+Prepare quotation,2025-03-04,Completed,Morgan,2025-03-07,2025-03-06,Sales,975
+Confirm booking,2025-03-06,In progress,Alex,2025-03-09,,Bookings,100
+Update inventory,2025-03-08,Pending,Sam,2025-03-11,,Client support,225
+Prepare weekly report,2025-03-10,Cancelled,Jamie,2025-03-13,,Sales,350
+Follow up inquiry,2025-03-12,Completed,Morgan,2025-03-15,2025-03-14,Bookings,475
+Review client records,2025-03-14,Completed,Alex,2025-03-17,2025-03-16,Client support,600
+Prepare quotation,2025-03-16,In progress,Sam,2025-03-19,,Sales,725
+Confirm booking,2025-03-18,Pending,Jamie,2025-03-21,,Bookings,850
+Update inventory,2025-03-20,Cancelled,Morgan,2025-03-23,,Client support,975
+Prepare weekly report,2025-03-22,Completed,Alex,2025-03-25,2025-03-24,Sales,100
+Follow up inquiry,2025-03-24,Completed,Sam,2025-03-27,2025-03-26,Bookings,225
+Review client records,2025-03-26,In progress,Jamie,2025-03-29,,Client support,350
+Prepare quotation,2025-03-28,Pending,Morgan,2025-03-31,,Sales,475
+Confirm booking,2025-03-30,Cancelled,Alex,2025-04-02,,Bookings,600
+Update inventory,2025-04-01,Completed,Sam,2025-04-04,2025-04-03,Client support,725
+Prepare weekly report,2025-04-03,Completed,Jamie,2025-04-06,2025-04-05,Sales,850
+Follow up inquiry,2025-04-05,In progress,Morgan,2025-04-08,,Bookings,975
+Review client records,2025-04-07,Pending,Alex,2025-04-10,,Client support,100
+Prepare quotation,2025-04-09,Cancelled,Sam,2025-04-12,,Sales,225
+Confirm booking,2025-04-11,Completed,Jamie,2025-04-14,2025-04-13,Bookings,350
+Update inventory,2025-04-13,Completed,Morgan,2025-04-16,2025-04-15,Client support,475
+Prepare weekly report,2025-04-15,In progress,Alex,2025-04-18,,Sales,600
+Follow up inquiry,2025-04-17,Pending,Sam,2025-04-20,,Bookings,725
+Review client records,2025-04-19,Cancelled,Jamie,2025-04-22,,Client support,850
+Prepare quotation,2025-04-21,Completed,Morgan,2025-04-24,2025-04-23,Sales,975
+Confirm booking,2025-04-23,Completed,Alex,2025-04-26,2025-04-25,Bookings,100
+Update inventory,2025-04-25,In progress,Sam,2025-04-28,,Client support,225
+Prepare weekly report,2025-04-27,Pending,Jamie,2025-04-30,,Sales,350
+Follow up inquiry,2025-04-29,Cancelled,Morgan,2025-05-02,,Bookings,475
+Review client records,2025-05-01,Completed,Alex,2025-05-04,2025-05-03,Client support,600
+Prepare quotation,2025-05-03,Completed,Sam,2025-05-06,2025-05-05,Sales,725
+Confirm booking,2025-05-05,In progress,Jamie,2025-05-08,,Bookings,850
+Update inventory,2025-05-07,Pending,Morgan,2025-05-10,,Client support,975
+Prepare weekly report,2025-05-09,Cancelled,Alex,2025-05-12,,Sales,100
+Follow up inquiry,2025-05-11,Completed,Sam,2025-05-14,2025-05-13,Bookings,225
+Review client records,2025-05-13,Completed,Jamie,2025-05-16,2025-05-15,Client support,350
+Prepare quotation,2025-05-15,In progress,Morgan,2025-05-18,,Sales,475
+Confirm booking,2025-05-17,Pending,Alex,2025-05-20,,Bookings,600
+Update inventory,2025-05-19,Cancelled,Sam,2025-05-22,,Client support,725
+Prepare weekly report,2025-05-21,Completed,Jamie,2025-05-24,2025-05-23,Sales,850
+Follow up inquiry,2025-05-23,Completed,Morgan,2025-05-26,2025-05-25,Bookings,975
+Review client records,2025-05-25,In progress,Alex,2025-05-28,,Client support,100
+Prepare quotation,2025-05-27,Pending,Sam,2025-05-30,,Sales,225
+Confirm booking,2025-05-29,Cancelled,Jamie,2025-06-01,,Bookings,350
+Update inventory,2025-05-31,Completed,Morgan,2025-06-03,2025-06-02,Client support,475
+Prepare weekly report,2025-06-02,Completed,Alex,2025-06-05,2025-06-04,Sales,600
+Follow up inquiry,2025-06-04,In progress,Sam,2025-06-07,,Bookings,725
+Review client records,2025-06-06,Pending,Jamie,2025-06-09,,Client support,850
+Prepare quotation,2025-06-08,Cancelled,Morgan,2025-06-11,,Sales,975
+Confirm booking,2025-06-10,Completed,Alex,2025-06-13,2025-06-12,Bookings,100
+Update inventory,2025-06-12,Completed,Sam,2025-06-15,2025-06-14,Client support,225
+Prepare weekly report,2025-06-14,In progress,Jamie,2025-06-17,,Sales,350
+Follow up inquiry,2025-06-16,Pending,Morgan,2025-06-19,,Bookings,475
+Review client records,2025-06-18,Cancelled,Alex,2025-06-21,,Client support,600
+Prepare quotation,2025-06-20,Completed,Sam,2025-06-23,2025-06-22,Sales,725
+Confirm booking,2025-06-22,Completed,Jamie,2025-06-25,2025-06-24,Bookings,850
+Update inventory,2025-06-24,In progress,Morgan,2025-06-27,,Client support,975
+Prepare weekly report,2025-06-26,Pending,Alex,2025-06-29,,Sales,100
+Follow up inquiry,2025-06-28,Cancelled,Sam,2025-07-01,,Bookings,225
+Review client records,2025-06-30,Completed,Jamie,2025-07-03,2025-07-02,Client support,350
+Prepare quotation,2025-07-02,Completed,Morgan,2025-07-05,2025-07-04,Sales,475
+Confirm booking,2025-07-04,In progress,Alex,2025-07-07,,Bookings,600
+Update inventory,2025-07-06,Pending,Sam,2025-07-09,,Client support,725
+Prepare weekly report,2025-07-08,Cancelled,Jamie,2025-07-11,,Sales,850
+Follow up inquiry,2025-07-10,Completed,Morgan,2025-07-13,2025-07-12,Bookings,975
+Review client records,2025-07-12,Completed,Alex,2025-07-15,2025-07-14,Client support,100
+Prepare quotation,2025-07-14,In progress,Sam,2025-07-17,,Sales,225
+Confirm booking,2025-07-16,Pending,Jamie,2025-07-19,,Bookings,350
+Update inventory,2025-07-18,Cancelled,Morgan,2025-07-21,,Client support,475
+Prepare weekly report,2025-07-20,Completed,Alex,2025-07-23,2025-07-22,Sales,600
+Follow up inquiry,2025-07-22,Completed,Sam,2025-07-25,2025-07-24,Bookings,725
+Review client records,2025-07-24,In progress,Jamie,2025-07-27,,Client support,850
+Prepare quotation,2025-07-26,Pending,Morgan,2025-07-29,,Sales,975
+Confirm booking,2025-07-28,Cancelled,Alex,2025-07-31,,Bookings,100
+Update inventory,2025-07-30,Completed,Sam,2025-08-02,2025-08-01,Client support,225
+Prepare weekly report,2025-08-01,Completed,Jamie,2025-08-04,2025-08-03,Sales,350
+Follow up inquiry,2025-08-03,In progress,Morgan,2025-08-06,,Bookings,475
+Review client records,2025-08-05,Pending,Alex,2025-08-08,,Client support,600
+Prepare quotation,2025-08-07,Cancelled,Sam,2025-08-10,,Sales,725
+Confirm booking,2025-08-09,Completed,Jamie,2025-08-12,2025-08-11,Bookings,850
+Update inventory,2025-08-11,Completed,Morgan,2025-08-14,2025-08-13,Client support,975
+Prepare weekly report,2025-08-13,In progress,Alex,2025-08-16,,Sales,100
+Follow up inquiry,2025-08-15,Pending,Sam,2025-08-18,,Bookings,225
+Review client records,2025-08-17,Cancelled,Jamie,2025-08-20,,Client support,350
+Prepare quotation,2025-08-19,Completed,Morgan,2025-08-22,2025-08-21,Sales,475
+Confirm booking,2025-08-21,Completed,Alex,2025-08-24,2025-08-23,Bookings,600
+Update inventory,2025-08-23,In progress,Sam,2025-08-26,,Client support,725
+Prepare weekly report,2025-08-25,Pending,Jamie,2025-08-28,,Sales,850
+Follow up inquiry,2025-08-27,Cancelled,Morgan,2025-08-30,,Bookings,975
+Review client records,2025-08-29,Completed,Alex,2025-09-01,2025-08-31,Client support,100
+Prepare quotation,2025-08-31,Completed,Sam,2025-09-03,2025-09-02,Sales,225
+Confirm booking,2025-09-02,In progress,Jamie,2025-09-05,,Bookings,350
+Update inventory,2025-09-04,Pending,Morgan,2025-09-07,,Client support,475
+Prepare weekly report,2025-09-06,Cancelled,Alex,2025-09-09,,Sales,600
+Follow up inquiry,2025-09-08,Completed,Sam,2025-09-11,2025-09-10,Bookings,725
+Review client records,2025-09-10,Completed,Jamie,2025-09-13,2025-09-12,Client support,850
+Prepare quotation,2025-09-12,In progress,Morgan,2025-09-15,,Sales,975
+Confirm booking,2025-09-14,Pending,Alex,2025-09-17,,Bookings,100
+Update inventory,2025-09-16,Cancelled,Sam,2025-09-19,,Client support,225
+Prepare weekly report,2025-09-18,Completed,Jamie,2025-09-21,2025-09-20,Sales,350
+Follow up inquiry,2025-09-20,Completed,Morgan,2025-09-23,2025-09-22,Bookings,475
+Review client records,2025-09-22,In progress,Alex,2025-09-25,,Client support,600
+Prepare quotation,2025-09-24,Pending,Sam,2025-09-27,,Sales,725
+Confirm booking,2025-09-26,Cancelled,Jamie,2025-09-29,,Bookings,850
+Update inventory,2025-09-28,Completed,Morgan,2025-10-01,2025-09-30,Client support,975
+Prepare weekly report,2025-09-30,Completed,Alex,2025-10-03,2025-10-02,Sales,100
+Follow up inquiry,2025-10-02,In progress,Sam,2025-10-05,,Bookings,225
+Review client records,2025-10-04,Pending,Jamie,2025-10-07,,Client support,350
+Prepare quotation,2025-10-06,Cancelled,Morgan,2025-10-09,,Sales,475
+Confirm booking,2025-10-08,Completed,Alex,2025-10-11,2025-10-10,Bookings,600
+Update inventory,2025-10-10,Completed,Sam,2025-10-13,2025-10-12,Client support,725
+Prepare weekly report,2025-10-12,In progress,Jamie,2025-10-15,,Sales,850
+Follow up inquiry,2025-10-14,Pending,Morgan,2025-10-17,,Bookings,975
+Review client records,2025-10-16,Cancelled,Alex,2025-10-19,,Client support,100
+Prepare quotation,2025-10-18,Completed,Sam,2025-10-21,2025-10-20,Sales,225
+Confirm booking,2025-10-20,Completed,Jamie,2025-10-23,2025-10-22,Bookings,350
+Update inventory,2025-10-22,In progress,Morgan,2025-10-25,,Client support,475
+Prepare weekly report,2025-10-24,Pending,Alex,2025-10-27,,Sales,600
+Follow up inquiry,2025-10-26,Cancelled,Sam,2025-10-29,,Bookings,725
+Review client records,2025-10-28,Completed,Jamie,2025-10-31,2025-10-30,Client support,850
+Prepare quotation,2025-10-30,Completed,Morgan,2025-11-02,2025-11-01,Sales,975
+Confirm booking,2025-11-01,In progress,Alex,2025-11-04,,Bookings,100
+Update inventory,2025-11-03,Pending,Sam,2025-11-06,,Client support,225
+Prepare weekly report,2025-11-05,Cancelled,Jamie,2025-11-08,,Sales,350
+Follow up inquiry,2025-11-07,Completed,Morgan,2025-11-10,2025-11-09,Bookings,475
+Review client records,2025-11-09,Completed,Alex,2025-11-12,2025-11-11,Client support,600
+Prepare quotation,2025-11-11,In progress,Sam,2025-11-14,,Sales,725
+Confirm booking,2025-11-13,Pending,Jamie,2025-11-16,,Bookings,850
+Update inventory,2025-11-15,Cancelled,Morgan,2025-11-18,,Client support,975
+Prepare weekly report,2025-11-17,Completed,Alex,2025-11-20,2025-11-19,Sales,100
+Follow up inquiry,2025-11-19,Completed,Sam,2025-11-22,2025-11-21,Bookings,225
+Review client records,2025-11-21,In progress,Jamie,2025-11-24,,Client support,350
+Prepare quotation,2025-11-23,Pending,Morgan,2025-11-26,,Sales,475
+Confirm booking,2025-11-25,Cancelled,Alex,2025-11-28,,Bookings,600
+Update inventory,2025-11-27,Completed,Sam,2025-11-30,2025-11-29,Client support,725
+Prepare weekly report,2025-11-29,Completed,Jamie,2025-12-02,2025-12-01,Sales,850
+Follow up inquiry,2025-12-01,In progress,Morgan,2025-12-04,,Bookings,975
+Review client records,2025-12-03,Pending,Alex,2025-12-06,,Client support,100
+Prepare quotation,2025-12-05,Cancelled,Sam,2025-12-08,,Sales,225
+Confirm booking,2025-12-07,Completed,Jamie,2025-12-10,2025-12-09,Bookings,350
+Update inventory,2025-12-09,Completed,Morgan,2025-12-12,2025-12-11,Client support,475
+Prepare weekly report,2025-12-11,In progress,Alex,2025-12-14,,Sales,600
+Follow up inquiry,2025-12-13,Pending,Sam,2025-12-16,,Bookings,725
+Review client records,2025-12-15,Cancelled,Jamie,2025-12-18,,Client support,850
+Prepare quotation,2025-12-17,Completed,Morgan,2025-12-20,2025-12-19,Sales,975
+Confirm booking,2025-12-19,Completed,Alex,2025-12-22,2025-12-21,Bookings,100
+Update inventory,2025-12-21,In progress,Sam,2025-12-24,,Client support,225
+Prepare weekly report,2025-12-23,Pending,Jamie,2025-12-26,,Sales,350
+Follow up inquiry,2025-12-25,Cancelled,Morgan,2025-12-28,,Bookings,475
+Review client records,2025-12-27,Completed,Alex,2025-12-30,2025-12-29,Client support,600
+Prepare quotation,2025-12-29,Completed,Sam,2026-01-01,2025-12-31,Sales,725
+Confirm booking,2025-12-31,In progress,Jamie,2026-01-03,,Bookings,850
+Update inventory,2026-01-02,Pending,Morgan,2026-01-05,,Client support,975
+Prepare weekly report,2026-01-04,Cancelled,Alex,2026-01-07,,Sales,100
+Follow up inquiry,2026-01-06,Completed,Sam,2026-01-09,2026-01-08,Bookings,225
+Review client records,2026-01-08,Completed,Jamie,2026-01-11,2026-01-10,Client support,350
+Prepare quotation,2026-01-10,In progress,Morgan,2026-01-13,,Sales,475
+Confirm booking,2026-01-12,Pending,Alex,2026-01-15,,Bookings,600
+Update inventory,2026-01-14,Cancelled,Sam,2026-01-17,,Client support,725
+Prepare weekly report,2026-01-16,Completed,Jamie,2026-01-19,2026-01-18,Sales,850
+Follow up inquiry,2026-01-18,Completed,Morgan,2026-01-21,2026-01-20,Bookings,975
+Review client records,2026-01-20,In progress,Alex,2026-01-23,,Client support,100
+Prepare quotation,2026-01-22,Pending,Sam,2026-01-25,,Sales,225
+Confirm booking,2026-01-24,Cancelled,Jamie,2026-01-27,,Bookings,350
+Update inventory,2026-01-26,Completed,Morgan,2026-01-29,2026-01-28,Client support,475
+Prepare weekly report,2026-01-28,Completed,Alex,2026-01-31,2026-01-30,Sales,600
+Follow up inquiry,2026-01-30,In progress,Sam,2026-02-02,,Bookings,725
+Review client records,2026-02-01,Pending,Jamie,2026-02-04,,Client support,850
+Prepare quotation,2026-02-03,Cancelled,Morgan,2026-02-06,,Sales,975
+Confirm booking,2026-02-05,Completed,Alex,2026-02-08,2026-02-07,Bookings,100
+Update inventory,2026-02-07,Completed,Sam,2026-02-10,2026-02-09,Client support,225
+Prepare weekly report,2026-02-09,In progress,Jamie,2026-02-12,,Sales,350
+Follow up inquiry,2026-02-11,Pending,Morgan,2026-02-14,,Bookings,475
+Review client records,2026-02-13,Cancelled,Alex,2026-02-16,,Client support,600
+Prepare quotation,2026-02-15,Completed,Sam,2026-02-18,2026-02-17,Sales,725
+Confirm booking,2026-02-17,Completed,Jamie,2026-02-20,2026-02-19,Bookings,850
+Update inventory,2026-02-19,In progress,Morgan,2026-02-22,,Client support,975
+Prepare weekly report,2026-02-21,Pending,Alex,2026-02-24,,Sales,100
+Follow up inquiry,2026-02-23,Cancelled,Sam,2026-02-26,,Bookings,225
+Review client records,2026-02-25,Completed,Jamie,2026-02-28,2026-02-27,Client support,350
+Prepare quotation,2026-02-27,Completed,Morgan,2026-03-02,2026-03-01,Sales,475
+Confirm booking,2026-03-01,In progress,Alex,2026-03-04,,Bookings,600
+Update inventory,2026-03-03,Pending,Sam,2026-03-06,,Client support,725
+Prepare weekly report,2026-03-05,Cancelled,Jamie,2026-03-08,,Sales,850
+Follow up inquiry,2026-03-07,Completed,Morgan,2026-03-10,2026-03-09,Bookings,975
+Review client records,2026-03-09,Completed,Alex,2026-03-12,2026-03-11,Client support,100
+Prepare quotation,2026-03-11,In progress,Sam,2026-03-14,,Sales,225
+Confirm booking,2026-03-13,Pending,Jamie,2026-03-16,,Bookings,350
+Update inventory,2026-03-15,Cancelled,Morgan,2026-03-18,,Client support,475
+Prepare weekly report,2026-03-17,Completed,Alex,2026-03-20,2026-03-19,Sales,600
+Follow up inquiry,2026-03-19,Completed,Sam,2026-03-22,2026-03-21,Bookings,725
+Review client records,2026-03-21,In progress,Jamie,2026-03-24,,Client support,850
+Prepare quotation,2026-03-23,Pending,Morgan,2026-03-26,,Sales,975
+Confirm booking,2026-03-25,Cancelled,Alex,2026-03-28,,Bookings,100
+Update inventory,2026-03-27,Completed,Sam,2026-03-30,2026-03-29,Client support,225
+Prepare weekly report,2026-03-29,Completed,Jamie,2026-04-01,2026-03-31,Sales,350
+Follow up inquiry,2026-03-31,In progress,Morgan,2026-04-03,,Bookings,475
+Review client records,2026-04-02,Pending,Alex,2026-04-05,,Client support,600
+Prepare quotation,2026-04-04,Cancelled,Sam,2026-04-07,,Sales,725
+Confirm booking,2026-04-06,Completed,Jamie,2026-04-09,2026-04-08,Bookings,850
+Update inventory,2026-04-08,Completed,Morgan,2026-04-11,2026-04-10,Client support,975
+Prepare weekly report,2026-04-10,In progress,Alex,2026-04-13,,Sales,100
+Follow up inquiry,2026-04-12,Pending,Sam,2026-04-15,,Bookings,225
+Review client records,2026-04-14,Cancelled,Jamie,2026-04-17,,Client support,350
+Prepare quotation,2026-04-16,Completed,Morgan,2026-04-19,2026-04-18,Sales,475
+Confirm booking,2026-04-18,Completed,Alex,2026-04-21,2026-04-20,Bookings,600
+Update inventory,2026-04-20,In progress,Sam,2026-04-23,,Client support,725
+Prepare weekly report,2026-04-22,Pending,Jamie,2026-04-25,,Sales,850
+Follow up inquiry,2026-04-24,Cancelled,Morgan,2026-04-27,,Bookings,975
+Review client records,2026-04-26,Completed,Alex,2026-04-29,2026-04-28,Client support,100
+Prepare quotation,2026-04-28,Completed,Sam,2026-05-01,2026-04-30,Sales,225
+Confirm booking,2026-04-30,In progress,Jamie,2026-05-03,,Bookings,350
+Update inventory,2026-05-02,Pending,Morgan,2026-05-05,,Client support,475
+Prepare weekly report,2026-05-04,Cancelled,Alex,2026-05-07,,Sales,600
+Follow up inquiry,2026-05-06,Completed,Sam,2026-05-09,2026-05-08,Bookings,725
+Review client records,2026-05-08,Completed,Jamie,2026-05-11,2026-05-10,Client support,850
+Prepare quotation,2026-05-10,In progress,Morgan,2026-05-13,,Sales,975
+Confirm booking,2026-05-12,Pending,Alex,2026-05-15,,Bookings,100
+Update inventory,2026-05-14,Cancelled,Sam,2026-05-17,,Client support,225
+Prepare weekly report,2026-05-16,Completed,Jamie,2026-05-19,2026-05-18,Sales,350
+Follow up inquiry,2026-05-18,Completed,Morgan,2026-05-21,2026-05-20,Bookings,475
+Review client records,2026-05-20,In progress,Alex,2026-05-23,,Client support,600
+Prepare quotation,2026-05-22,Pending,Sam,2026-05-25,,Sales,725
+Confirm booking,2026-05-24,Cancelled,Jamie,2026-05-27,,Bookings,850
+Update inventory,2026-05-26,Completed,Morgan,2026-05-29,2026-05-28,Client support,975
+Prepare weekly report,2026-05-28,Completed,Alex,2026-05-31,2026-05-30,Sales,100
+Follow up inquiry,2026-05-30,In progress,Sam,2026-06-02,,Bookings,225
+Review client records,2026-06-01,Pending,Jamie,2026-06-04,,Client support,350
+Prepare quotation,2026-06-03,Cancelled,Morgan,2026-06-06,,Sales,475
+Confirm booking,2026-06-05,Completed,Alex,2026-06-08,2026-06-07,Bookings,600
+Update inventory,2026-06-07,Completed,Sam,2026-06-10,2026-06-09,Client support,725
+Prepare weekly report,2026-06-09,In progress,Jamie,2026-06-12,,Sales,850
+Follow up inquiry,2026-06-11,Pending,Morgan,2026-06-14,,Bookings,975
+Review client records,2026-06-13,Cancelled,Alex,2026-06-16,,Client support,100
+Prepare quotation,2026-06-15,Completed,Sam,2026-06-18,2026-06-17,Sales,225
+Confirm booking,2026-06-17,Completed,Jamie,2026-06-20,2026-06-19,Bookings,350
+Update inventory,2026-06-19,In progress,Morgan,2026-06-22,,Client support,475
+Prepare weekly report,2026-06-21,Pending,Alex,2026-06-24,,Sales,600
+Follow up inquiry,2026-06-23,Cancelled,Sam,2026-06-26,,Bookings,725
+Review client records,2026-06-25,Completed,Jamie,2026-06-28,2026-06-27,Client support,850
+Prepare quotation,2026-06-27,Completed,Morgan,2026-06-30,2026-06-29,Sales,975
+Confirm booking,2026-06-29,In progress,Alex,2026-07-02,,Bookings,100
+Update inventory,2026-07-01,Pending,Sam,2026-07-04,,Client support,225
+Prepare weekly report,2026-07-03,Cancelled,Jamie,2026-07-06,,Sales,350
+Follow up inquiry,2026-07-05,Completed,Morgan,2026-07-08,2026-07-07,Bookings,475
+Review client records,2026-07-07,Completed,Alex,2026-07-10,2026-07-09,Client support,600
+Prepare quotation,2026-07-09,In progress,Sam,2026-07-12,,Sales,725
+Confirm booking,2026-07-11,Pending,Jamie,2026-07-14,,Bookings,850
+Update inventory,2026-07-13,Cancelled,Morgan,2026-07-16,,Client support,975
+Prepare weekly report,2026-07-15,Completed,Alex,2026-07-18,2026-07-17,Sales,100
+Follow up inquiry,2026-07-17,Completed,Sam,2026-07-20,2026-07-19,Bookings,225
+Review client records,2026-07-19,In progress,Jamie,2026-07-22,,Client support,350
+Prepare quotation,2026-07-21,Pending,Morgan,2026-07-24,,Sales,475
+Confirm booking,2026-07-23,Cancelled,Alex,2026-07-26,,Bookings,600
+Update inventory,2026-07-25,Completed,Sam,2026-07-28,2026-07-27,Client support,725
+Prepare weekly report,2026-07-27,Completed,Jamie,2026-07-30,2026-07-29,Sales,850
+Follow up inquiry,2026-07-29,In progress,Morgan,2026-08-01,,Bookings,975
+Review client records,2026-07-31,Pending,Alex,2026-08-03,,Client support,100
+Prepare quotation,2026-08-02,Cancelled,Sam,2026-08-05,,Sales,225
+Confirm booking,2026-08-04,Completed,Jamie,2026-08-07,2026-08-06,Bookings,350
+Update inventory,2026-08-06,Completed,Morgan,2026-08-09,2026-08-08,Client support,475
+Prepare weekly report,2026-08-08,In progress,Alex,2026-08-11,,Sales,600
+Follow up inquiry,2026-08-10,Pending,Sam,2026-08-13,,Bookings,725
+Review client records,2026-08-12,Cancelled,Jamie,2026-08-15,,Client support,850
+Prepare quotation,2026-08-14,Completed,Morgan,2026-08-17,2026-08-16,Sales,975
+Confirm booking,2026-08-16,Completed,Alex,2026-08-19,2026-08-18,Bookings,100
+Update inventory,2026-08-18,In progress,Sam,2026-08-21,,Client support,225
+Prepare weekly report,2026-08-20,Pending,Jamie,2026-08-23,,Sales,350
+Follow up inquiry,2026-08-22,Cancelled,Morgan,2026-08-25,,Bookings,475
+Review client records,2026-08-24,Completed,Alex,2026-08-27,2026-08-26,Client support,600
+Prepare quotation,2026-08-26,Completed,Sam,2026-08-29,2026-08-28,Sales,725
+Confirm booking,2026-08-28,In progress,Jamie,2026-08-31,,Bookings,850
+Update inventory,2026-08-30,Pending,Morgan,2026-09-02,,Client support,975
+Prepare weekly report,2026-09-01,Cancelled,Alex,2026-09-04,,Sales,100
+Follow up inquiry,2026-09-03,Completed,Sam,2026-09-06,2026-09-05,Bookings,225
+Review client records,2026-09-05,Completed,Jamie,2026-09-08,2026-09-07,Client support,350
+Prepare quotation,2026-09-07,In progress,Morgan,2026-09-10,,Sales,475
+Confirm booking,2026-09-09,Pending,Alex,2026-09-12,,Bookings,600
+Update inventory,2026-09-11,Cancelled,Sam,2026-09-14,,Client support,725
+Prepare weekly report,2026-09-13,Completed,Jamie,2026-09-16,2026-09-15,Sales,850
+Follow up inquiry,2026-09-15,Completed,Morgan,2026-09-18,2026-09-17,Bookings,975
+Review client records,2026-09-17,In progress,Alex,2026-09-20,,Client support,100
+Prepare quotation,2026-09-19,Pending,Sam,2026-09-22,,Sales,225
+Confirm booking,2026-09-21,Cancelled,Jamie,2026-09-24,,Bookings,350
+Update inventory,2026-09-23,Completed,Morgan,2026-09-26,2026-09-25,Client support,475
+Prepare weekly report,2026-09-25,Completed,Alex,2026-09-28,2026-09-27,Sales,600
+Follow up inquiry,2026-09-27,In progress,Sam,2026-09-30,,Bookings,725
+Review client records,2026-09-29,Pending,Jamie,2026-10-02,,Client support,850
+Prepare quotation,2026-10-01,Cancelled,Morgan,2026-10-04,,Sales,975
+Confirm booking,2026-10-03,Completed,Alex,2026-10-06,2026-10-05,Bookings,100
+Update inventory,2026-10-05,Completed,Sam,2026-10-08,2026-10-07,Client support,225
+Prepare weekly report,2026-10-07,In progress,Jamie,2026-10-10,,Sales,350
+Follow up inquiry,2026-10-09,Pending,Morgan,2026-10-12,,Bookings,475
+Review client records,2026-10-11,Cancelled,Alex,2026-10-14,,Client support,600
+Prepare quotation,2026-10-13,Completed,Sam,2026-10-16,2026-10-15,Sales,725
+Confirm booking,2026-10-15,Completed,Jamie,2026-10-18,2026-10-17,Bookings,850
+Update inventory,2026-10-17,In progress,Morgan,2026-10-20,,Client support,975
+Prepare weekly report,2026-10-19,Pending,Alex,2026-10-22,,Sales,100
+Follow up inquiry,2026-10-21,Cancelled,Sam,2026-10-24,,Bookings,225
+Review client records,2026-10-23,Completed,Jamie,2026-10-26,2026-10-25,Client support,350
+Prepare quotation,2026-10-25,Completed,Morgan,2026-10-28,2026-10-27,Sales,475
+Confirm booking,2026-10-27,In progress,Alex,2026-10-30,,Bookings,600
+Update inventory,2026-10-29,Pending,Sam,2026-11-01,,Client support,725
+Prepare weekly report,2026-10-31,Cancelled,Jamie,2026-11-03,,Sales,850
+Follow up inquiry,2026-11-02,Completed,Morgan,2026-11-05,2026-11-04,Bookings,975
+Review client records,2026-11-04,Completed,Alex,2026-11-07,2026-11-06,Client support,100
+Prepare quotation,2026-11-06,In progress,Sam,2026-11-09,,Sales,225
+Confirm booking,2026-11-08,Pending,Jamie,2026-11-11,,Bookings,350
+Update inventory,2026-11-10,Cancelled,Morgan,2026-11-13,,Client support,475
+Prepare weekly report,2026-11-12,Completed,Alex,2026-11-15,2026-11-14,Sales,600
+Follow up inquiry,2026-11-14,Completed,Sam,2026-11-17,2026-11-16,Bookings,725
+Review client records,2026-11-16,In progress,Jamie,2026-11-19,,Client support,850
+Prepare quotation,2026-11-18,Pending,Morgan,2026-11-21,,Sales,975
+Confirm booking,2026-11-20,Cancelled,Alex,2026-11-23,,Bookings,100
+Update inventory,2026-11-22,Completed,Sam,2026-11-25,2026-11-24,Client support,225
+Prepare weekly report,2026-11-24,Completed,Jamie,2026-11-27,2026-11-26,Sales,350
+Follow up inquiry,2026-11-26,In progress,Morgan,2026-11-29,,Bookings,475
+Review client records,2026-11-28,Pending,Alex,2026-12-01,,Client support,600
+Prepare quotation,2026-11-30,Cancelled,Sam,2026-12-03,,Sales,725
+Confirm booking,2026-12-02,Completed,Jamie,2026-12-05,2026-12-04,Bookings,850
+Update inventory,2026-12-04,Completed,Morgan,2026-12-07,2026-12-06,Client support,975
+Prepare weekly report,2026-12-06,In progress,Alex,2026-12-09,,Sales,100
+Follow up inquiry,2026-12-08,Pending,Sam,2026-12-11,,Bookings,225
+Review client records,2026-12-10,Cancelled,Jamie,2026-12-13,,Client support,350
+Prepare quotation,2026-12-12,Completed,Morgan,2026-12-15,2026-12-14,Sales,475
+Confirm booking,2026-12-14,Completed,Alex,2026-12-17,2026-12-16,Bookings,600
+Update inventory,2026-12-16,In progress,Sam,2026-12-19,,Client support,725
+Prepare weekly report,2026-12-18,Pending,Jamie,2026-12-21,,Sales,850
+Follow up inquiry,2026-12-20,Cancelled,Morgan,2026-12-23,,Bookings,975
+Review client records,2026-12-22,Completed,Alex,2026-12-25,2026-12-24,Client support,100
+Prepare quotation,2026-12-24,Completed,Sam,2026-12-27,2026-12-26,Sales,225
+Confirm booking,2026-12-26,In progress,Jamie,2026-12-29,,Bookings,350
+Update inventory,2026-12-28,Pending,Morgan,2026-12-31,,Client support,475
+Prepare weekly report,2026-12-30,Cancelled,Alex,2027-01-02,,Sales,600
