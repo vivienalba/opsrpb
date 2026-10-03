@@ -1,17 +1,20 @@
-# Viv’s Operations Report Builder
+# Viv’s Operations Cleaner
 
-A Python portfolio app that turns activity records into weekly, monthly, quarterly, and annual operations reports. The landing screen follows the supplied design reference: green grid, bold white headline, a desktop spreadsheet illustration, and a yellow processing button.
+CSV and TSV data cleaning plus multi-sheet Excel workbook cleaning that retains the original workbook structure and formatting definitions.
 
-## Start on your Mac
+The interface keeps OpsClean’s purple and yellow identity, with larger touch controls, visible search and filter labels, a numbered workflow, and a consistent CSV/Excel review panel. The copyright and Terms and Policies button share one footer row on mobile. Sample and export buttons remain off-white, and the upload button remains outside the dashed drop zone.
 
-1. Extract the ZIP.
-2. Open Terminal. Type `python3` followed by a space.
-3. Drag **launch.py** from the extracted folder into Terminal, then press Enter.
-4. The launcher installs the requirements in its own virtual environment and starts the app. Open the local URL printed in Terminal (usually http://localhost:8501). Keep Terminal open. Press Control+C to stop.
+Cleaning summaries use a brief Anime.js 4.5.0 entrance. Final numbers are visible immediately, unchanged summaries do not replay on search/filter updates, and the device’s **Reduce Motion** setting disables the effect. The animation library is included locally, so no CDN, npm install, or JavaScript build is required to run the app. Only summary counts and labels enter the component; uploaded cell contents do not.
 
-Python 3.10 or newer and internet access for the initial dependency installation are required. If you already have another app using port 8501, Streamlit may choose the next port.
+## Run on your Mac
 
-Alternatively, from this project folder:
+1. Extract this ZIP into a folder.
+2. Open Terminal, type `python3` followed by a space, drag `launch.py` into Terminal, and press Enter.
+3. The launcher finds its own folder, installs requirements into its own `.venv`, and starts Streamlit. Open the localhost URL printed in Terminal.
+
+Python 3.10 or newer and internet access for the first installation are required. Keep Terminal open while using the app. Press Control+C to stop.
+
+Alternatively, run these commands from the extracted project folder:
 
 ```bash
 python3 -m venv .venv
@@ -20,59 +23,57 @@ python3 -m pip install -r requirements.txt
 python3 -m streamlit run app.py
 ```
 
-## Try it
+## Excel workflow
 
-Click **PROCESS YOUR DATA HERE**, keep **Sample dataset**, choose a reporting frequency and any date within the period, then click **GENERATE OPERATIONS REPORT**. The example is fictional and spans 2025–2026. The default date is September 15, 2026, within a completed historical reporting period.
+1. Upload an ordinary `.xlsx` workbook.
+2. Choose one or several worksheet checkboxes, or enable **Clean all sheets**.
+3. Check the data range for each selected sheet. Its first row must be the table header. Exclude titles, notes, summary sections, and separate tables.
+4. Choose trimming, email casing, and Philippine mobile formatting rules.
+5. Click **Clean selected sheets** or **Clean all sheets**.
+6. Review each sheet’s original data, cleaned data, change log, missing cells, and duplicate rows.
+7. Download **Export cleaned Excel workbook**.
 
-## Use your data
+All original worksheets, including unselected and hidden sheets, remain in the workbook. Retaining these sheets protects cross-sheet references. Sheet names and order remain intact. Chart sheets and other package parts are retained without being cleaned.
 
-- CSV, TSV, and XLSX uploads, up to 20 MB; select a worksheet for Excel.
-- One row per activity; header row required.
-- Required mappings: activity date and status.
-- Optional mappings: activity name, owner, due date, completed date, category, numeric value.
-- Choose YYYY-MM-DD, DD/MM/YYYY, or MM/DD/YYYY for text dates. Genuine Excel datetime cells are recognized directly. Mixed text-date formats should be standardized before upload.
-- Choose which statuses mean completed and which are excluded (for example Cancelled).
-- Numeric values must be plain numbers; currency symbols and thousands separators are not guessed.
-- Review data quality and methodology before export.
+## What is preserved
 
-## What reports mean
+The app edits plain-text cell values directly inside a copy of the original Excel package. It does not convert the workbook into a newly formatted spreadsheet or save it through a workbook writer.
 
-Calendar weeks run Monday–Sunday. Quarters begin in January, April, July, and October. Annual periods are calendar years, not rolling 12-month periods or fiscal years.
+Every package part other than selected worksheet XML is copied byte for byte, including styles, themes, shared strings, images, chart definitions, table definitions, comments, relationships, and workbook settings. Within a selected worksheet, only changed text cell value markup is replaced. Cell style references and all other worksheet markup are retained, including row/column dimensions, merged regions, filters, print settings, validation, conditional-formatting rules, and freeze panes.
 
-The mapped activity date defines the period cohort. Each row counts once; duplicate rows are retained. This is an activity report, not a unique-task or event-history system.
+Headers remain unchanged to protect table and formula references. Formulas and their cached values, numbers, date values and formats, rich text, merged cells, hyperlink cells, and protected worksheets are not edited. Formula results and conditional-formatting appearance can change when Excel recalculates the cleaned values. In a workbook with manual calculation enabled, recalculate in Excel before relying on results. Cleaning changes the text content, so text wrapping or chart labels may look different even though their formatting settings are retained. Universal pixel-identical appearance across Excel versions cannot be guaranteed.
 
-Completed counts use the selected statuses. If a completion date is mapped, it must be valid and at/before the cutoff. Completed-status rows with unusable completion dates are counted as open and flagged in the notes. If completion dates are not mapped, status is a current uploaded snapshot and cannot establish historical completion timing.
+Duplicate rows are identified after cleaning but retained. Removing or shifting rows conflicts with preserving arbitrary workbook layouts and formula references. Missing values are flagged in the app without inserting, filling, or recoloring cells. No extra report worksheet is added.
 
-The cutoff is the earlier of period end or today's date in Asia/Manila. Overdue means an open, non-excluded activity with a due date before the cutoff. A task due on the cutoff date is not overdue. Only the period cohort is included, not the full historical backlog.
+Mobile formatting applies only to plain text in columns containing phone, mobile, or contact_number. Numeric phone cells are preserved. Emails are identified through email/e-mail column names. Status names and date conventions are not automatically guessed or standardized.
 
-Completion rate = completed eligible activities / (all period activities minus excluded statuses). Future periods may include planned activities. Missing/invalid activity dates are excluded and listed. Missing periods do not establish that no business activity occurred. Previous-period comparison concerns activity counts only.
+The preview is a value table, not a visual rendering of Excel formatting. Numeric date cells may appear as Excel serial values in previews; their original Excel display formats remain in the workbook. Preview rows retain Excel row numbers. Duplicate detection compares the selected range and compares formulas as expressions rather than calculated results.
 
-The summary is calculated from these rules; no AI-generated claims or external AI calls are used.
+Digitally signed, encrypted, or unsupported XML-format workbooks are rejected rather than silently converted. Each chosen range is limited to 1,000,000 cells, and expanded workbooks over 512 MB are rejected. The uploader's existing 200 MB limit is retained.
 
-## Exports
+## CSV and TSV
 
-**Excel:** summary, complete period activities, owner workload, status breakdown, trend, data issues, methodology, settings, and a status chart. Source text is written as text, not executable Excel formulas.
+The existing workflow remains available: standardize column names, trim whitespace, lowercase emails, normalize Philippine mobile text, remove duplicate rows, flag missing cells, and download cleaned CSV. These plain-text files do not contain Excel worksheet formatting.
 
-**PDF:** report title, summary, metrics, workload, status breakdown, up to 30 overdue activities, and methodology. The complete activity list is in Excel.
+## Deploy
 
-Reports are generated in session memory. Uploads are not intentionally written to disk, externally shared, or placed in a shared cross-user cache. Host-level logging and memory retention depend on the deployed service; avoid confidential information on a public portfolio demo.
+Upload the complete extracted project to your Ops Cleaner repository. Keep these files and folders together:
 
-## Deploy from GitHub
+- `app.py`, `ui.py`, and `workbook_cleaner.py`
+- `assets/` and `components/`, including all summary component and vendor files
+- `favicon.png` and `requirements.txt`
+- `.streamlit/config.toml`
 
-Create a separate repository for this project. Upload app.py, core.py, exports.py, design.py, favicon.png, requirements.txt, and .streamlit/config.toml at the repository root. Other included files are optional. Do not upload your .venv folder or real customer data.
+The entrypoint remains `app.py`. Do not upload `.venv`, `__pycache__`, or real customer files. Replacing only `app.py` is insufficient for this version.
 
-In Streamlit Community Cloud, choose that repository and branch and set the entrypoint to **app.py**. Keep the full source folder together; app.py imports the other three Python modules. No API keys are required.
+## Customize the interface
 
-## Checks
+Page styles are in `assets/opsclean.css`, rather than pasted into Python code. Summary styles are in `components/summary/summary.css`. The theme file is `.streamlit/config.toml` beside the app’s project files.
 
-From this folder, run:
+## Verification
 
 ```bash
-python3 -m unittest test_reporting.py
+python3 -m unittest test_workbooks.py
 ```
 
-Tests cover calendar boundaries (including leap years), counted/excluded statuses, missing dates, empty reports, upload formats, and export integrity.
-
-## Portfolio description
-
-A Python operations reporting application that converts CSV, TSV, and Excel records into weekly, monthly, quarterly, and annual reports. Includes configurable column mapping, workload analysis, completion and overdue metrics, data-quality checks, and downloadable Excel and PDF reports.
+Tests check selected-sheet isolation, shared strings, cell styles, number formats, formulas, merged/hyperlink/rich-text protection, dimensions, freeze panes, worksheet settings, duplicate retention, protected sheets, signed-workbook rejection, ranges, and literal text safety. Streamlit interactions were checked for one, several, and all sheets, the original CSV sample flow, rule resets, search, missing-row filtering, and stale-download prevention. Browser checks covered desktop and 390/320-pixel mobile layouts, the footer baseline, the policy dialog, the summary component, and reduced motion. The tests verify the included fixtures; they cannot certify every possible workbook or browser.
