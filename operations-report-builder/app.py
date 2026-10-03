@@ -219,7 +219,7 @@ def render_intro():
 
 def render_import(compact=False):
     if not compact:
-        st.markdown('<h2 class="import-heading">Import dataset</h2>', unsafe_allow_html=True)
+        st.markdown('<h2 class="import-heading">Import Dataset</h2>', unsafe_allow_html=True)
         st.caption("Start with a CSV, TSV, or Excel workbook.")
     with st.container(key="upload_controls"):
         uploaded = st.file_uploader("Upload CSV, TSV, or Excel", type=["csv", "tsv", "xlsx"], key="uploaded_csv", on_change=set_source, args=("upload",), label_visibility="collapsed")
