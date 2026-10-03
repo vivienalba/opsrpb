@@ -387,9 +387,9 @@ def main():
                 uploaded, encoding_label, separator = render_import()
         st.markdown("""
         <div class="empty-footer">
-          <div><span class="guide-number">01 / IMPORT</span><strong>Bring your operations data</strong><p>Upload a CSV, TSV, or Excel workbook from your spreadsheet, form, or CRM.</p></div>
-          <div><span class="guide-number">02 / CLEAN</span><strong>Choose what changes</strong><p>Set your cleaning rules. For Excel, choose the sheets and data ranges to review.</p></div>
-          <div><span class="guide-number">03 / REVIEW</span><strong>Review, then export</strong><p>Compare the original and cleaned data, check missing values, and download your file.</p></div>
+          <div><span class="guide-number"> IMPORT</span><strong>Bring your operations data</strong><p>Upload a CSV, TSV, or Excel workbook from your spreadsheet, form, or CRM.</p></div>
+          <div><span class="guide-number"> CLEAN</span><strong>Choose what changes</strong><p>Set your cleaning rules. For Excel, choose the sheets and data ranges to review.</p></div>
+          <div><span class="guide-number"> REVIEW</span><strong>Review, then export</strong><p>Compare the original and cleaned data, check missing values, and download your file.</p></div>
         </div>
         """, unsafe_allow_html=True)
         render_policies()
