@@ -272,13 +272,13 @@ def render_workbook(raw, filename):
         source = WorkbookSource(raw)
         sheets = list(source.sheets)
         st.title("Clean your workbook")
-        st.markdown(f'<div class="file-line"><span class="file-name">{html.escape(filename)}</span><span>· {len(sheets):,} sheets detected</span></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="file-line"><span class="file-name">{html.escape(filename)}</span><span> {len(sheets):,} sheets detected</span></div>', unsafe_allow_html=True)
         progress = st.empty()
         st.caption("Choose your sheets and ranges. The Excel export keeps all original sheets and their formatting definitions.")
         chosen = []
         sheet_controls, rule_controls = st.columns([1.1, 1], gap="large")
         with sheet_controls:
-            with st.expander(f"Choose sheets · {len(sheets):,} detected", expanded=True):
+            with st.expander(f"Choose sheets {len(sheets):,} detected", expanded=True):
                 all_sheets = st.checkbox("Clean all sheets", key=f"all_sheets_{digest}")
                 for i, name in enumerate(sheets):
                     checked = st.checkbox(name, value=i == 0, disabled=all_sheets, key=f"sheet_{digest}_{i}")
@@ -450,9 +450,9 @@ def main():
     render_steps(2)
     heading, action = st.columns([3, 1.4], vertical_alignment="center")
     with heading:
-        st.title("Review dataset")
+        st.title("Review Dataset")
         tag = '<span class="sample-label">Sample data</span>' if sample else ""
-        st.markdown(f'<div class="file-line"><span class="file-name">{html.escape(filename)}</span>{tag}<span>· {len(original.columns):,} columns</span></div>', unsafe_allow_html=True)
+        st.markdown(f'<div class="file-line"><span class="file-name">{html.escape(filename)}</span>{tag}<span> {len(original.columns):,} columns</span></div>', unsafe_allow_html=True)
     with action:
         st.download_button("Export cleaned CSV", data=export, file_name=f"{Path(filename).stem}_cleaned.csv", mime="text/csv", type="primary", width="stretch", icon=":material/download:", on_click="ignore")
 
@@ -465,7 +465,7 @@ def main():
     if report["duplicates_remaining"]:
         st.caption(f"{report['duplicates_remaining']:,} duplicate rows remain because duplicate removal is off.")
 
-    with st.expander(f"Cleaning rules · {sum(options.values())} active", icon=":material/tune:"):
+    with st.expander(f"Cleaning rules {sum(options.values())} active", icon=":material/tune:"):
         st.button("Reset to recommended rules", key="reset_rules", type="tertiary", on_click=reset_rules)
         st.caption("Updates apply immediately. Blank cells are always treated as missing.")
         rule_columns = st.columns(2)
