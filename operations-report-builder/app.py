@@ -198,7 +198,6 @@ def render_masthead():
       </svg>
       <span class="brand-dot" aria-hidden="true"></span>
       <div class="brand">OpsClean</div>
-      <span class="masthead-sub">By Viv · Operations made clearer</span>
       <svg class="burst" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 64 16 86 14 84 36 100 50 84 64 86 86 64 84 50 100 36 84 14 86 16 64 0 50 16 36 14 14 36 16Z"/></svg>
     </div>
     """, unsafe_allow_html=True)
